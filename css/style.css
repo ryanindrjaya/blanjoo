@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;800&display=swap');
+
+/************************
+* Primary color : #37667e
+* secondary     : #b8e0f6
+* third         : #7b92aa
+************************/
+
+@media only screen and (max-width: 600px){
+	.kategori-menu {
+    display: none;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+
+#bg-login {
+  height: 100vh;
+  background: rgb(13,110,253);
+  background: linear-gradient(90deg, rgba(13,110,253,1) 0%, rgba(110,175,244,1) 54%, rgba(101,200,255,1) 100%);
+}
+
+.box-login {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  bottom: 36%;
+  right: 16%;
+  flex-direction: column;
+  padding: 20px;
+  width: 300px;
+  background-color: white;
+  border: 1.5px solid transparent;
+  border-radius: 10px;
+  box-shadow: 8px 23px 22px -7px rgba(0,0,0,0.1);
+}
+
+#bg-login img {
+  position: absolute;
+  width: 600px;
+  top: 10%;
+  left: 5%;
+}
+
+.box-login h2 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 4px;
+  background-color: #e8f0fe;
+  border: transparent;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.submit {
+  padding: 5px 20px;
+  width: 100px;
+  background-color: #ed92d2;
+  border: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 4px 18px 21px -3px rgba(0,0,0,0.1);
+  transition: 0.6s ease;
+}
+
+.heading {
+  background-image:    url("../asset/header.jpg");
+  background-size:     cover; 
+  background-repeat:   no-repeat;
+  background-position: center center; 
+}
+
+.text-content {
+  color: white;
+  background: rgba(184, 224, 246, 0.58);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(184, 224, 246, 0.3);
+}
+
+footer p {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.info-display {
+  font-weight: 300;
+}
+
+.display-box {
+  margin-bottom: 20px;
+}
+
+.display-content {
+  font-size: 20px;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
+#editCategory {
+  width: 30%;
+  color: black;
+}
+
+.ikon-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ikon{
+  transition: 0.3s;
+}
+
+.ikon:hover {
+  background-color: rgba(98, 98, 98, 0.621);
+}
+
+.produk-card {
+  transition: 0.4s;
+}
+
+.produk-card:hover {
+  transform: scale(1.1);
+}
+
+.image-fluid {
+  box-sizing: border-box;
+}

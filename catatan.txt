@@ -1,0 +1,27 @@
+db_blanjoo
+
+# tb_seller
+=====================================
+1. seller_id		| int(11) P.K
+2. seller_name		| varchar(50)
+3. username		| varchar(50)
+4. password		| varchar(100)
+5. seller_telp		| varchar(20)
+6. seller_email		| varchar(50)
+7. seller_address	| text
+
+# tb_category
+======================================
+1. category_id		| int(11) P.K
+2. category_name	| varchar(25)
+
+# tb_product
+======================================
+1. product_id		| int(11) P.K
+2. category_id		| int(11) foreign key
+3. product_name		| varchar(1000
+4. product_price	| int(11)
+5. product_description	| text
+6. product_image	| varchar(100)
+7. product_status	| tinyint(1)
+8. date_created		| timestamp 
